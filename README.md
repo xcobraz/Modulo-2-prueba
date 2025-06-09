@@ -1,19 +1,14 @@
-Nombre: Johnatan Londoño Taborda
-Clan: gosling
-Correo: tabordalon@gmail.com
-documento: 1020397422
+Name: Johnatan Londoño Taborda
+Clan: ansarón
+Email: tabordalon@gmail.com
+Document: 1020397422
 
-Mi proyecto fue acerca de una maqueta de portafolio  la cual organize  en carpetas diferentes el docuemnto principal esta en un index.html la esta es la pagina principal de la web la cual solo muestra 
-una imagen de la persona junto a un espacio para la descripcion y abajo las tecnologias que sabe usar sus otras dos conexiones son contacto.html la cual nos envia el formulario de contacto y portafolio.html 
-esta nos muestra los algunos de los proyectos que he hecho con su link a los repositorios.
+My project was about a portfolio layout that was organized into different folders. The main document is in index.html. This is the main page of the website, which only shows an image of the person along with a space for the description, and below the technologies they know how to use. The other two links are contact.html, which sends us the contact form, and portfolio.html.
+This shows us some of the projects I've done with their link to the repositories.
 
-el programa esta encarpetado con una carpeta especifica para css dentro de la cual se puede encontrar los estilos de css el style.css esta conectado al index.html
-portafolio.css esta conectado a portafolio.html
-contacto.css esta conectado con contacto.html
-se esta manera cada pagina tiene su conexion a archivos css diferentes para poder variar el estilo libremente 
+The program is stored in a specific CSS folder, within which you can find the CSS styles. Style.css is connected to index.html. Portfolio.css is connected to portfolio.html. Contact.css is connected to contact.html. This way, each page has a connection to different CSS files so you can freely vary the style.
 
-entrando un poco mas en el codigo se baso en 4 etiquetas principales las cuales serian header, nav,main,footer estas etiquetas estan presentes en los 3 archivos html
+Going a little deeper into the code, it is based on four main tags: header, nav, main, and footer. These tags are present in all three HTML files.
 
-en cuanto al css se utilizaron estilos tales como colores sombras tipografia y transiciones las transiciones se encuentran en los botones del navegador asi como en los links de los repositorios, 
-los iconos de las redes y las tarjetas de los proyectos
-el diseño se ajusto para que fuera responsive utilizando flexbox grid y mediaqueries 
+Regarding CSS, styles such as colors, shadows, typography, and transitions were used. Transitions are found on browser buttons, as well as repository links, network icons, and project cards.
+The design is adjusted to be responsive using Flexbox Grid and MediaQueries.
