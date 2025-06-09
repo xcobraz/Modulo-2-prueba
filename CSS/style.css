@@ -1,0 +1,223 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap");
+/* se importa la url para el estilo de la letra y  se ajusta la pagina para utilizarla en su totalidad */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  color: #323232;
+}
+html{
+    background-color: #DDD0C8;
+}
+.no-margin{
+    margin: 0;
+}
+.centrar-texto{
+    text-align: center;
+}
+@media (max-width: 1000px){
+    .nombre{
+        font-size: 3rem;
+        text-align: center;
+        margin-right: 1rem;
+    }
+}
+
+
+h1{font-size: 4rem;}
+h2{font-size: 4rem;}
+h3{font-size: 3.2rem;}
+h4{font-size: 2.8rem;}
+
+.barra{
+    background-color: #323232;
+    display: flex;
+    justify-content: space-between;
+    min-height: 7vh;
+    align-items: center;
+}
+@media (max-width: 1000px){
+    .barra{
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: justify;
+        min-width: 5vw;
+    }
+}
+@media (max-width: 1000px){
+    .links{
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: justify;
+        min-width: 5vw;
+        width: 10%;
+    }
+}
+.titulo{
+    text-align: center;
+    
+}
+h1{
+    color: #fff;
+}
+
+.navegacion-enlace{
+    background-color: #DDD0C8;
+    border-radius: 20px;
+    padding: 8px;
+    color: #323232;
+    text-decoration: none;
+    border: 0.03rem;
+    border-color: #323232;
+    border-style: solid;
+    transition: 700ms 100ms;
+
+}
+.navegacion-enlace:hover{
+    background-color: #323232;
+    color: #ffffff;
+    border: 0.03rem;
+    border-color: #fff;
+    border-style: solid;
+
+}
+.navegacion-enlace:active{
+    background-color: #DDD0C8;
+    border: 0.05rem;
+    border-color: gray;
+    border-style: solid;
+}
+
+.navegacion{
+    margin-right: 10rem;
+    display: flex;
+    gap: 7rem;
+}
+@media (max-width: 1000px){
+    .navegacion{
+        display:flex;
+        gap: 2rem;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: 15rem;
+        padding: 1rem;
+
+    }
+}
+.contenedor-principal{
+    min-height: 50vh;
+}
+.presentacion-personal{
+    display: flex;
+    justify-content: space-between;
+    gap: 10rem;
+    margin-left: 5rem;
+}
+.entrada-imagen img{
+        width: 700%;
+     border-radius: 80%;
+     border-color: #323232;
+     border: 0.5rem;
+     border-style: solid;
+     
+}
+.entrada-imagen{
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+}
+.about-me h2{
+    padding: 2rem;
+}
+.about-me{
+    border-radius: 20px;
+    box-shadow: #323232 10px 10px 10px 10px;
+    margin: 5rem 10rem;
+    padding: 2rem;
+}
+
+@media (max-width: 1000px){
+    .presentacion-personal  {
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: justify;
+        gap: 2rem;
+
+    }
+}
+@media (max-width: 1000px){
+    .presentacion-personal img{
+        width: 100%;
+
+
+    }
+}
+
+@media (max-width: 1000px){
+    .about-me{
+        width: 80%;
+
+
+    }
+}
+.lenguajes{
+    background-color: #323232;
+    padding: 2rem;
+}
+.lenguajes h2{
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    font-size: 2em;
+
+}
+.imagenes-lenguajes .imagen img{
+    width: 40%;
+}
+
+.imagenes-lenguajes{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 1rem;
+    padding-left: 10rem;
+
+}
+.footer{
+    background-color: #DDD0C8;
+    min-height: 15vh;
+}
+h2{
+    padding: 1rem;
+    font-size: 2em;
+}
+.redes{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding-left: 10rem;
+
+}
+
+.redes img{
+    width: 40%;
+    transition: 0.5s ease-in-out;
+}
+.redes img:hover{
+    scale: 1.25;
+}

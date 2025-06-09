@@ -1,0 +1,252 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap");
+/* se importa la url para el estilo de la letra y  se ajusta la pagina para utilizarla en su totalidad */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  color: #323232;
+}
+html{
+    background-color: #DDD0C8;
+}
+.no-margin{
+    margin: 0;
+}
+.centrar-texto{
+    text-align: center;
+}
+h1{font-size: 4rem;}
+h2{font-size: 4rem;}
+h3{font-size: 3.2rem;}
+h4{font-size: 2.8rem;}
+
+.barra{
+    background-color: #323232;
+    display: flex;
+    justify-content: space-between;
+    min-height: 7vh;
+    align-items: center;
+}
+
+
+.titulo{
+    margin-left: 5rem;
+    text-align: center;
+    
+}
+h1{
+    color: #fff;
+}
+.contac-me{
+    background-color: #323232;
+    margin: 5rem;
+    padding: 3rem;
+}
+.formulario form{
+    margin: 0 auto;
+    width: 70rem;
+    border-color: #ffffff;
+    border-style: solid;
+    border-radius: 20px;
+    padding: 1rem;
+    height: 35rem;
+}
+.formulario input,textarea{
+    outline: none;
+    border: 0;
+    width: 90%;
+    text-align: center;
+}
+.formulario textarea{
+    text-align: left;
+}
+.field{
+    border: solid 1px white;
+    border-radius: 20px;
+    padding: 10px;
+    width: 90%;
+    min-height: 3rem;
+}
+.formulario p{
+    color: #ffffff;
+    margin: 10px;
+}
+.formulario{
+    text-align: center;
+
+
+}
+/*  se organiza el estilo del boton del formulario */
+.btn{
+    border-radius: 20px;
+    display: inline-block;
+    padding: 2rem;
+    text-decoration: none;
+    text-shadow: 0 1px 0 #323232;
+    min-width: 10vw;
+    margin-top: 5rem;
+    min-height: 4rem;
+}
+
+.btn-black{
+    background-color: #DDD0C8;
+    border-radius: 20px;
+    padding: 8px;
+    color: #323232;
+    text-decoration: none;
+    border: 0.03rem;
+    border-color: #323232;
+    border-style: solid;
+    transition: 700ms 100ms;
+
+}
+.btn-black:hover{
+    background-color: #323232;
+    color: #ffffff;
+    border: 0.03rem;
+    border-color: #fff;
+    border-style: solid;
+
+}
+.btn-black:active{
+    background-color: #DDD0C8;
+    border: 0.05rem;
+    border-color: gray;
+    border-style: solid;
+}
+
+.navegacion-enlace{
+    background-color: #DDD0C8;
+    border-radius: 20px;
+    padding: 8px;
+    color: #323232;
+    text-decoration: none;
+    border: 0.03rem;
+    border-color: #323232;
+    border-style: solid;
+    transition: 700ms 100ms;
+
+}
+.navegacion-enlace:hover{
+    background-color: #323232;
+    color: #ffffff;
+    border: 0.03rem;
+    border-color: #fff;
+    border-style: solid;
+
+}
+.navegacion-enlace:active{
+    background-color: #DDD0C8;
+    border: 0.05rem;
+    border-color: gray;
+    border-style: solid;
+}
+
+.navegacion{
+    margin-right: 10rem;
+    display: flex;
+    gap: 7rem;
+}
+.contenedor-principal{
+    min-height: 100vh;
+}
+
+@media (max-width: 1024px){
+    .formulario form{
+        width: 100%;
+
+
+    }
+}
+
+@media (max-width: 1024px){
+    .navegacion{
+        display:flex;
+        gap: 2rem;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: 15rem;
+        padding: 1rem;
+
+    }
+}
+
+@media (max-width: 1024px){
+    .barra{
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: justify;
+        min-width: 5vw;
+    }
+}
+@media (max-width: 1024px){
+    .links{
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: justify;
+        min-width: 5vw;
+        width: 10%;
+    }
+}
+
+@media (max-width: 1024px){
+    .nombre{
+        font-size: 3rem;
+        text-align: center;
+        margin-right: 1rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer{
+    background-color: #DDD0C8;
+    min-height: 15vh;
+}
+h2{
+    padding: 1rem;
+    font-size: 2em;
+}
+.redes{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding-left: 10rem;
+
+}
+
+.redes img{
+    width: 40%;
+    transition: 0.5s ease-in-out;
+}
+.redes img:hover{
+    scale: 1.25;
+}

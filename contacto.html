@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contacto</title>
+    <link rel="stylesheet" href="CSS/contacto.css">
+</head>
+<body>
+
+    <header class="header">
+        <div class="contenedor">
+            <div class="barra">
+                <h1 class="nombre no-margin centar-texto" >Jhonatan Londoño Taborda</h1>
+                <div class="links">
+                  <nav class="navegacion">
+                      <a class="navegacion-enlace" href="index.html">Presentacion personal</a>
+                      <a class="navegacion-enlace" href="portafolio.html">portafolio</a>
+                      <a class="navegacion-enlace" href="contacto.html">Contactame</a>
+                  </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="contendor-principal">
+        <main class="contac-me">
+            <div class="formulario">
+                <h2 class="nombre no-margin centar-texto" id="contact">Contactame</h2>
+                <form action="/send" method="post">
+                  <p>Nombre:</p>
+                  <input type="text" id="name" name="name" required class="field">
+          
+                  <p>Correo Electronico:</p>
+                  <input type="email" id="Email" name="Email" required class="field">
+          
+                  <p>Mensaje:</p>
+                  <textarea id="message" name="message" rows="4" required class="field"></textarea>
+                  <p>
+                    <input type="submit" value="send" class="btn btn-black">
+                  </p>
+                </form>
+              </div>
+        </main>
+    </div>
+
+
+
+    <footer class="footer"> 
+      <h2 class="titulo-personal no-margin centrar-texto">Redes</h2>
+        <ul class="redes">
+            <li>
+              <a href="https://www.linkedin.com/in/jhonatan-londoño-96aa76249/" target="_blank"> 
+                <img src="images/linkedlin.png" alt="foto de linkedlin">
+            </a>
+            </li>
+
+            <li>
+              <a href="https://github.com/xcobraz" target="_blank"> 
+                <img src="images/github.png" alt="github">
+              </a>
+            </li>
+
+            <li>
+              <a href="https://www.whatsapp.com/?lang=es_LA" target="_blank">
+                <img src="images/whatsap.png" alt="whatsapp">
+    </footer>
+</body>
+</html>
